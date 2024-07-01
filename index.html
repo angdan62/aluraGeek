@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <meta name="Angel Cesar Villa Flores" content="Alura_Geek">
+    <title>Alura Geek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <header class="header">
+            <img class="header_img" src="./img/heart__icon.png"> 
+            <img class="header_img" src="./img/heart__icon.png"> 
+            <img class="header_img" src="./img/heart__icon.png">
+            <h1 class="header__title">ALURA GEEK</h1>
+    </header>
+    <main class="main">
+        <div class="main__container">
+           <div class="main__container-product">
+                <h1>Mis Productos:</h1>
+                <div class="card__container" data-card-container>
+
+                </div>
+            </div>  
+
+            <form class="main__container-form" data-form-product>
+                <div class="form__product">
+                    <h1 class="form__title">AGREGAR <br>PRODUCTO</h1>
+                    <input type="text" class="form__product-name" placeholder="Nombre..." value minlength="10" maxlength="30" data-form-name required>
+                    <input type="text" class="form__product-price" placeholder="Precio..." value data-form-price required>
+                    <input type="url" class="form__product-img" placeholder="URL de imagen..." value data-form-img required>
+                    <div class="form__product__controls">
+                        <input type="submit" class="form__product_controls-send" value="Enviar">
+                        <input type="button" class="form__product_controls-clear" id="form__product_controls-clear" value="Limpiar" >
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__title">
+            <img src="./img/heart__icon.png"> 
+            <img src="./img/heart__icon.png"> 
+            <img src="./img/heart__icon.png"> 
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="footer__subtitle">
+            <h2>DESARROLLADO POR</h2>
+            <h2>ANGEL CESAR VILLA FLORES</h2>
+        </div>
+        <div class="footer__credit">ALURA LATAM - 2024</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/añadirProducto.js" type="module"></script>
+</body>
+</html>

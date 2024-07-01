@@ -1,0 +1,52 @@
+{
+  "productos": [
+    {
+      "id": "1",
+      "name": "Funko Pennywise",
+      "price": "60.00",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Movies-It-Pennywise-10-Pulgadas-1.png?v=1663913169"
+    },
+    {
+      "id": "3",
+      "name": "Funko Wolverine",
+      "price": "120.00",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Marvel-80-anos-Wolverine-primera-aparicion-2.jpg?v=1663912752"
+    },
+    {
+      "id": "7",
+      "name": "Funko Goku Edicion Muerto",
+      "price": "200.00",
+      "imagen": "https://tierra2-0.com/cdn/shop/files/FunkoPopAnimation-DragonBallZ-GokuAngel08.jpg?v=1696954796"
+    },
+    {
+      "id": "8",
+      "name": "Funko IronMan Version Zombie",
+      "price": "122",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Marvel-Studios-What-If...-Zombie-Iron-Man-02.jpg?v=1663923691&width=713"
+    },
+    {
+      "id": "9",
+      "name": "asdasdasdasdasd",
+      "price": "522.23",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Marvel-Studios-What-If...-Zombie-Iron-Man-02.jpg?v=1663923691&width=713"
+    },
+    {
+      "id": "10",
+      "name": "asdasfdegdf",
+      "price": "150",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Marvel-Studios-What-If...-Zombie-Iron-Man-02.jpg?v=1663923691&width=713"
+    },
+    {
+      "id": "54fd",
+      "name": "SWEET ALERT",
+      "price": "111.00",
+      "imagen": "https://tierra2-0.com/cdn/shop/products/Funko-Pop-Marvel-Studios-What-If...-Zombie-Iron-Man-02.jpg?v=1663923691&width=713"
+    },
+    {
+      "id": "f2ed",
+      "name": "ASassasdasdasdasda",
+      "price": "640.00",
+      "imagen": "https://tierra2-0.com/cdn/shop/files/FunkoPopAnimation-DragonBallZ-GokuAngel08.jpg?v=1696954796"
+    }
+  ]
+}
